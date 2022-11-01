@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Dave Gray">
+  <meta name="description" content="Contact information for The Little Taco Shop">
+  <title>Contact Us - LTS</title>
+  <link rel="shortcut icon"
+        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/taco_1f32e.png"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+  <h1>Contact Us</h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="index.html#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+      </li>
+      <li>
+        <a href="index.html#menu">Our Menu</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <figure>
+    <img src="https://www.jocooks.com/wp-content/uploads/2020/08/ground-beef-tacos-1-11.jpg"
+         alt="Little Taco Shop Tacos" title="Tacos ready to eat!"
+         width="400" height="260">
+    <figcaption>
+      Little Taco Shop Tacos
+    </figcaption>
+  </figure>
+</header>
+<hr>
+<main>
+  <section>
+    <h2>Our Location</h2>
+    <address>
+      555 Taco Temptation Lane <br>
+      Suite T<br>
+      Kansas City, MO 55555-5555
+      <br><br>
+      Phone: <a href="tel:+1234567890">123-456-7890</a>
+    </address>
+    <p>Delivery is also available to any address in Johnson or Jackson Counties </p>
+  </section>
+  <section>
+    <h2>Our Online-order Form</h2>
+
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>Place your order here</legend>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="name for the order" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="your email" required>
+        </p>
+
+        <p>
+          <label for="order">Your Order:</label>
+          <br>
+          <textarea name="message" id="order" cols="40" rows="20"
+                    placeholder="Type your order here"></textarea>
+        </p>
+      </fieldset>
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
+    </form>
+  </section>
+
+</main>
+<hr>
+<footer>
+  <p>Copyright &copy; 2022 The Little Taco Shop</p>
+</footer>
+</body>
+
+</html>
